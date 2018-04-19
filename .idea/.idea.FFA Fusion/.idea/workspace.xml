@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659a3a75-bb8d-43b3-ad28-25c52b541682" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.FFA Fusion/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FFA Fusion/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.FFA Fusion/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FFA Fusion/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.FFA Fusion/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity" afterPath="$PROJECT_DIR$/Assets/MainScene.unity" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MotionController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/MotionController.cs" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
-      <change beforePath="$PROJECT_DIR$/Library/TilemapEditorUserSettings.asset" afterPath="$PROJECT_DIR$/Library/TilemapEditorUserSettings.asset" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19" afterPath="$PROJECT_DIR$/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/90/909ef92754e7c9e4fa825faa99106606" afterPath="$PROJECT_DIR$/Library/metadata/90/909ef92754e7c9e4fa825faa99106606" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/96/96a117eae4a867c4d83c5ac58c110ca1" afterPath="$PROJECT_DIR$/Library/metadata/96/96a117eae4a867c4d83c5ac58c110ca1" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,37 +22,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="MotionController.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MotionController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MotionController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="48" />
+            <state relative-caret-position="594">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
-                <marker date="1524064128544" expanded="false" signature="6:78" ph="..." />
-                <marker date="1524064128544" expanded="true" signature="126:990" ph="{...}" />
-                <marker date="1524064128544" expanded="true" signature="223:301" ph="{...}" />
-                <marker date="1524064128544" expanded="true" signature="318:988" ph="{...}" />
-                <marker date="1524064128544" expanded="true" signature="433:516" ph="{...}" />
-                <marker date="1524064128544" expanded="true" signature="541:625" ph="{...}" />
-                <marker date="1524064128544" expanded="true" signature="652:735" ph="{...}" />
-                <marker date="1524064128544" expanded="true" signature="762:847" ph="{...}" />
-                <marker date="1524064128544" expanded="true" signature="850:957" ph="/* var move = new Vector3(horizontal, vertical, 0); ... */" />
+                <marker date="1524179451693" expanded="false" signature="6:78" ph="..." />
+                <marker date="1524179451693" expanded="true" signature="126:1025" ph="{...}" />
+                <marker date="1524179451693" expanded="true" signature="223:301" ph="{...}" />
+                <marker date="1524179451693" expanded="true" signature="323:1023" ph="{...}" />
+                <marker date="1524179451693" expanded="true" signature="359:371" ph="{...}" />
+                <marker date="1524179451693" expanded="true" signature="483:566" ph="{...}" />
+                <marker date="1524179451693" expanded="true" signature="586:670" ph="{...}" />
+                <marker date="1524179451693" expanded="true" signature="692:775" ph="{...}" />
+                <marker date="1524179451693" expanded="true" signature="797:882" ph="{...}" />
+                <marker date="1524179451693" expanded="true" signature="885:992" ph="/* var move = new Vector3(horizontal, vertical, 0); ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnemyMovement.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnemyMovement.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="990">
+              <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
               <folding>
-                <marker date="1524146580241" expanded="true" signature="6:40" ph="..." />
-                <marker date="1524146580241" expanded="true" signature="84:841" ph="{...}" />
-                <marker date="1524146580241" expanded="true" signature="379:571" ph="{...}" />
-                <marker date="1524146580241" expanded="true" signature="464:568" ph="/* playerHealth = player.GetComponent &lt;PlayerHealth&gt; (); ... */" />
-                <marker date="1524146580241" expanded="true" signature="589:838" ph="{...}" />
+                <marker date="1524179050629" expanded="true" signature="6:76" ph="..." />
+                <marker date="1524179050629" expanded="true" signature="120:1255" ph="{...}" />
+                <marker date="1524179050629" expanded="true" signature="437:683" ph="{...}" />
+                <marker date="1524179050629" expanded="true" signature="576:680" ph="/* playerHealth = player.GetComponent &lt;PlayerHealth&gt; (); ... */" />
+                <marker date="1524179050629" expanded="true" signature="701:1252" ph="{...}" />
+                <marker date="1524179050629" expanded="true" signature="1076:1197" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -72,8 +73,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Motion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MotionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MotionController.cs" />
       </list>
     </option>
   </component>
@@ -104,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -133,7 +135,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,11 +171,12 @@
       <workItem from="1524009193089" duration="3569000" />
       <workItem from="1524062486215" duration="1729000" />
       <workItem from="1524145185064" duration="1466000" />
+      <workItem from="1524173973853" duration="3088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6764000" />
+    <option name="totallyTimeSpent" value="9852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,16 +194,16 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3478125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1859375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -224,55 +226,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MotionController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1524064128544" expanded="false" signature="6:78" ph="..." />
-            <marker date="1524064128544" expanded="true" signature="126:990" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="223:301" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="318:988" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="433:516" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="541:625" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="652:735" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="762:847" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="850:957" ph="/* var move = new Vector3(horizontal, vertical, 0); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MotionController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1524064128544" expanded="false" signature="6:78" ph="..." />
-            <marker date="1524064128544" expanded="true" signature="126:990" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="223:301" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="318:988" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="433:516" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="541:625" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="652:735" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="762:847" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="850:957" ph="/* var move = new Vector3(horizontal, vertical, 0); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Motion.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MotionController.cs">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="48" />
           <folding>
-            <marker date="1524064128544" expanded="false" signature="6:78" ph="..." />
-            <marker date="1524064128544" expanded="true" signature="126:990" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="223:301" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="318:988" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="433:516" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="541:625" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="652:735" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="762:847" ph="{...}" />
-            <marker date="1524064128544" expanded="true" signature="850:957" ph="/* var move = new Vector3(horizontal, vertical, 0); ... */" />
+            <marker date="1524179451693" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524179451693" expanded="true" signature="126:1025" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="223:301" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="323:1023" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="359:371" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="483:566" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="586:670" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="692:775" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="797:882" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="885:992" ph="/* var move = new Vector3(horizontal, vertical, 0); ... */" />
           </folding>
         </state>
       </provider>
@@ -282,11 +248,85 @@
         <state relative-caret-position="264">
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <marker date="1524146580241" expanded="true" signature="6:40" ph="..." />
-            <marker date="1524146580241" expanded="true" signature="84:841" ph="{...}" />
-            <marker date="1524146580241" expanded="true" signature="379:571" ph="{...}" />
-            <marker date="1524146580241" expanded="true" signature="464:568" ph="/* playerHealth = player.GetComponent &lt;PlayerHealth&gt; (); ... */" />
-            <marker date="1524146580241" expanded="true" signature="589:838" ph="{...}" />
+            <marker date="1524179050629" expanded="true" signature="6:76" ph="..." />
+            <marker date="1524179050629" expanded="true" signature="120:1255" ph="{...}" />
+            <marker date="1524179050629" expanded="true" signature="437:683" ph="{...}" />
+            <marker date="1524179050629" expanded="true" signature="576:680" ph="/* playerHealth = player.GetComponent &lt;PlayerHealth&gt; (); ... */" />
+            <marker date="1524179050629" expanded="true" signature="701:1252" ph="{...}" />
+            <marker date="1524179050629" expanded="true" signature="1076:1197" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MotionController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524179451693" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524179451693" expanded="true" signature="126:1025" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="223:301" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="323:1023" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="359:371" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="483:566" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="586:670" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="692:775" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="797:882" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="885:992" ph="/* var move = new Vector3(horizontal, vertical, 0); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MotionController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524179451693" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524179451693" expanded="true" signature="126:1025" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="223:301" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="323:1023" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="359:371" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="483:566" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="586:670" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="692:775" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="797:882" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="885:992" ph="/* var move = new Vector3(horizontal, vertical, 0); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Motion.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <marker date="1524179050629" expanded="true" signature="6:76" ph="..." />
+            <marker date="1524179050629" expanded="true" signature="120:1255" ph="{...}" />
+            <marker date="1524179050629" expanded="true" signature="437:683" ph="{...}" />
+            <marker date="1524179050629" expanded="true" signature="576:680" ph="/* playerHealth = player.GetComponent &lt;PlayerHealth&gt; (); ... */" />
+            <marker date="1524179050629" expanded="true" signature="701:1252" ph="{...}" />
+            <marker date="1524179050629" expanded="true" signature="1076:1197" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MotionController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <marker date="1524179451693" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524179451693" expanded="true" signature="126:1025" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="223:301" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="323:1023" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="359:371" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="483:566" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="586:670" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="692:775" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="797:882" ph="{...}" />
+            <marker date="1524179451693" expanded="true" signature="885:992" ph="/* var move = new Vector3(horizontal, vertical, 0); ... */" />
           </folding>
         </state>
       </provider>

@@ -14,8 +14,12 @@ public class MotionController : MonoBehaviour {
 		pos = transform.position;
 	}
  
-	void Update()
+	void FixedUpdate()
 	{
+		if (Input.GetKeyDown("space"))
+		{
+			
+		}
 		var vertical = Input.GetAxis("Vertical");
 		var horizontal = Input.GetAxis("Horizontal");
 		if (vertical > 0)
@@ -23,17 +27,17 @@ public class MotionController : MonoBehaviour {
 			animator.SetInteger("direction", 2);
 			pos += new Vector3(0,speed, 0);
 		}
-		else if (vertical < 0)
+		if (vertical < 0)
 		{
 			animator.SetInteger("direction", 0);
 			pos += new Vector3(0,-speed, 0);
 		}
-		else if (horizontal > 0)
+		if (horizontal > 0)
 		{
 			animator.SetInteger("direction", 1);
 			pos += new Vector3(speed,0, 0);
 		}
-		else if (horizontal < 0)
+		if (horizontal < 0)
 		{
 			animator.SetInteger("direction", 3);
 			pos += new Vector3(-speed ,0, 0);
