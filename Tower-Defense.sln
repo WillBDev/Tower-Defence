@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tower-Defense", "Assembly-CSharp.csproj", "{9B282EBB-F650-CE4C-3165-30EC9E911FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tower-Defense", "Assembly-CSharp-Editor-firstpass.csproj", "{394F39F1-671F-56CA-1A8E-2669B741318A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B282EBB-F650-CE4C-3165-30EC9E911FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B282EBB-F650-CE4C-3165-30EC9E911FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B282EBB-F650-CE4C-3165-30EC9E911FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B282EBB-F650-CE4C-3165-30EC9E911FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394F39F1-671F-56CA-1A8E-2669B741318A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394F39F1-671F-56CA-1A8E-2669B741318A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394F39F1-671F-56CA-1A8E-2669B741318A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394F39F1-671F-56CA-1A8E-2669B741318A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
