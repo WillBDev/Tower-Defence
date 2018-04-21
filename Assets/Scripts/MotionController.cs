@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,9 +8,11 @@ public class MotionController : MonoBehaviour {
 	private Animator animator;
 	public float speed = 0.08f;
 	public Vector3 pos;
+	public GameObject projectile;
 	
 	void Start()
 	{
+		projectile = GameObject.Find("Projectile");
 		animator = this.GetComponent<Animator>();
 		pos = transform.position;
 	}
@@ -18,7 +21,10 @@ public class MotionController : MonoBehaviour {
 	{
 		if (Input.GetKeyDown("space"))
 		{
-			
+	
+			GameObject bulletInstance = Instantiate(projectile, transform.position, Quaternion.Euler(new Vector3(0, 0, 1))) as GameObject;
+			bulletInstance.GetComponent<Rigidbody2D>().velocity = transform.forward * 10;
+			Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(),  GetComponent<Collider2D>());
 		}
 		var vertical = Input.GetAxis("Vertical");
 		var horizontal = Input.GetAxis("Horizontal");
