@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MotionController : MonoBehaviour {
  
@@ -10,6 +11,9 @@ public class MotionController : MonoBehaviour {
 	public Vector3 pos;
 	public GameObject projectile;
 	public float pSpeed = 100;
+	public float health = 10;
+
+	public Text gameOverText;
 
 	public List<GameObject> Projectiles = new List <GameObject>();
 	public List<String> Directions = new List <String> ();
@@ -21,6 +25,7 @@ public class MotionController : MonoBehaviour {
 		projectile = GameObject.Find("Projectile");
 		animator = this.GetComponent<Animator>();
 		pos = transform.position;
+		gameOverText.text = "";
 	}
  
 	void FixedUpdate()
@@ -93,6 +98,18 @@ public class MotionController : MonoBehaviour {
 					Projectiles.Remove (goBullet);
 					Directions.RemoveAt (i);
 				}
+			}
+		}
+	}
+	void OnTriggerEnter2D(Collider2D col)
+	{
+		if (col.gameObject.tag == "Enemy") {
+			print ("DAMAGED!");
+			health--;
+			print (health);
+			if (health < 1) {
+				gameOverText.text = "GAME OVER";
+				Time.timeScale = 0; //freezes game
 			}
 		}
 	}
