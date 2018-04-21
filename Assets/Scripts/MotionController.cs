@@ -64,7 +64,7 @@ public class MotionController : MonoBehaviour {
 
 	}
 	void Update(){
-		if (Input.GetMouseButtonDown(0))
+		if (Input.GetKeyDown("space"))
 		{
 			GameObject laser = (GameObject)Instantiate (projectile, transform.position, Quaternion.identity);
 			Projectiles.Add (laser);

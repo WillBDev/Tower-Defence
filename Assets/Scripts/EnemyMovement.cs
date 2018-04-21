@@ -12,6 +12,11 @@ public class EnemyMovement : MonoBehaviour
 	public int currentHealth=10;
 	public float Speed = 0.8f;
 	private Image image;
+	private bool isActive;
+
+	[SerializeField]
+	private GameObject waveBtn;
+
 	void Awake ()
 	{
 		// Set up the references.
@@ -39,9 +44,19 @@ public class EnemyMovement : MonoBehaviour
 	public void TakeDamage(){
 		currentHealth--;
 		print (currentHealth);
-		if (currentHealth < 1)
+		if (currentHealth < 1) {
 			Destroy (gameObject);
+			Release ();
+		}
 	}
+
+
+	private void Release()
+		{
+		waveBtn.SetActive (true);
+		}
+		
+
 	void OnTriggerEnter2D(Collider2D col)
 	{
 		if (col.gameObject.tag == "Bullet") {
